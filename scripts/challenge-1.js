@@ -15,3 +15,21 @@ if (!output) throw "Output container not found.";
 
 //@ts-check
 // your code starts after this line
+
+// let number = 1;
+
+// const message = number;
+// output.innerText = message;
+// console.log(message);
+
+// while (Number > 10000) {
+// 	number + 1;
+// }
+
+// console.log(number);
+
+let number = 10000;
+let x = 0;
+while (x < number) {
+	console.log((x += 2));
+}
