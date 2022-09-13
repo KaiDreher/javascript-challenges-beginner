@@ -16,3 +16,16 @@ if (!output) throw "Output container not found.";
 
 //@ts-check
 // your code starts after this line
+
+var result = " x   ";
+
+function buff(val) {
+	var buff = "";
+	var pad = 4 - val;
+	while (pad-- > 0) buff += " ";
+	return buff;
+}
+
+output.innerText = " x   [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]";
+output.innerText = "[1]   1   2   3   4   5   6   7   8   9  10";
+output.innerText = "[2]   2   4   6   8  10  12  14  16  18  20";

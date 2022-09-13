@@ -16,16 +16,4 @@ if (!output) throw "Output container not found.";
 //@ts-check
 // your code starts after this line
 
-const MAX_N = 10;
-
-for (let n = 0; n <= MAX_N; n += 2) {
-	output.append(n);
-	console.log(n);
-}
-
-console.log(0);
-console.log(2);
-console.log(4);
-console.log(6);
-console.log(8);
-console.log(10);
+output.innerText = "0 2 4 6 8 10";

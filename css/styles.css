@@ -12,6 +12,7 @@ a.back-link {
     border: solid 2px rgb(203, 24, 24);
     background-color: rgb(160, 153, 229);
     border-radius: 5px;
+    min-height: 1000px;
 }
 
 #output-container:empty:before {
