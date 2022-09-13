@@ -16,20 +16,16 @@ if (!output) throw "Output container not found.";
 //@ts-check
 // your code starts after this line
 
-// let number = 1;
+const MAX_N = 10;
 
-// const message = number;
-// output.innerText = message;
-// console.log(message);
-
-// while (Number > 10000) {
-// 	number + 1;
-// }
-
-// console.log(number);
-
-let number = 10000;
-let x = 0;
-while (x < number) {
-	console.log((x += 2));
+for (let n = 0; n <= MAX_N; n += 2) {
+	output.append(n);
+	console.log(n);
 }
+
+console.log(0);
+console.log(2);
+console.log(4);
+console.log(6);
+console.log(8);
+console.log(10);
