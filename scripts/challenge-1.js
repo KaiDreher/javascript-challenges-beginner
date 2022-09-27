@@ -16,4 +16,9 @@ if (!output) throw "Output container not found.";
 //@ts-check
 // your code starts after this line
 
-output.innerText = "0 2 4 6 8 10";
+number = 0;
+while (number != 10) {
+	number = number + 1;
+	console.log(number);
+	output.innerText = number;
+}
